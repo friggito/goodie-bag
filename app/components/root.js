@@ -1,5 +1,6 @@
 import React from 'react'
 import {HashRouter, Route, Link} from 'react-router-dom'
+
 import AllCandies from './AllCandies'
 
 const Root = () => {
@@ -14,8 +15,7 @@ const Root = () => {
         <main>
           <h1>Welcome to the Goodie Bag!</h1>
           <p>What a nice home page for your goodies!</p>
-          <Route exact path='/api/candies' component={AllCandies}/>
-          <Route path='/api/candies/:candyId' component={SingleCandy}/>
+          <AllCandies/>
         </main>
       </div>
     </HashRouter>
