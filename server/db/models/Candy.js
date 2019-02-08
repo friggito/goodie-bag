@@ -20,6 +20,6 @@ module.exports = db.define('candy', {
   },
   imageUrl: {
     type: Sequelize.STRING,
-    defaultValue: 'public/bg.jpg'
+    defaultValue: 'http://www.ocsaccess.com/admin/clientfiles/ucsne/images/xlarge/mm%20choc.jpg'
   }
 });
